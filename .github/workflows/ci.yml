@@ -1,0 +1,11 @@
+name: Flujo de trabajo Hola Mundo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  hola_mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saluda
+        run: echo "¡Hola Mundo!"
