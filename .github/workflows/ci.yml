@@ -9,3 +9,8 @@ jobs:
     steps:
       - name: Saluda
         run: echo "¡Hola Mundo!"
+  hola_mundos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saluda
+        run: echo "¡Hola Mundo!"
